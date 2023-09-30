@@ -1,0 +1,138 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the whole page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the h1 in the header */
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Style links in the header */
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the main sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings inside sections */
+section h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the list items inside sections */
+section ul {
+    list-style: none;
+}
+
+section li {
+    margin-bottom: 5px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Media query for responsive design (adjust as needed) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
+
+
+
+/* ... (previous CSS code) ... */
+
+/* Style the "Personal Details" section */
+.personal-details {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px; /* Adjust the size of the icons */
+    margin-right: 5px; /* Adjust spacing between icons and text */
+    color: black; /
+}
+
+
+/* Style the "Social Media" section */
+.social-media {
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the logos (add your own images and adjust sizes) */
+.social-media img {
+    width: 50px; /* Adjust the size of the logos */
+    margin: 10px; /* Adjust spacing between logos */
+}
+
+/* Media query for responsive design (adjust as needed) */
+@media (max-width: 768px) {
+    /* ... (previous media query styles) ... */
+}
+
+
+/* ... (previous CSS code) ... */
+
+/* Style links (a tags) */
+a {
+    text-decoration: none; /* Remove underlines */
+    color: black; /* Link color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: grey; /* Link color on hover */
+    transform: scale(1.1); /* Increase size by 10% */
+    transform: rotate(10deg);
+    transform: scale(1.1);
+}
+
+/* ... (previous CSS code) ... */
+
